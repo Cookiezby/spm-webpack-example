@@ -9,8 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "JSBridge",
-            targets: ["JSBridge"]),
-        .plugin(name: "WebpackPlugin", targets: ["WebpackPlugin"])
+            targets: ["JSBridge"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -19,7 +18,6 @@ let package = Package(
             name: "JSBridge"),
         .testTarget(
             name: "JSBridgeTests",
-            dependencies: ["JSBridge"]),
-        .plugin(name: "WebpackPlugin", capability: .command(intent: .custom(verb: "compile-ts", description: ""), permissions: [.writeToPackageDirectory(reason: "Compile TypeScript file")]))
+            dependencies: ["JSBridge"])
     ]
 )
