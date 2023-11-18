@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "webpack": "^5.89.0"
+  },
+  "scripts": {
+    "generate": "webpack build --mode production"
+  }
+}
