@@ -1,3 +1,3 @@
 export function hello() {
-    console.log("hello6")
+    console.log("hello8")
 }
