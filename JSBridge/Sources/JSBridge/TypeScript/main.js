@@ -1,1 +1,1 @@
-(()=>{"use strict";var e,o={};e=o,Object.defineProperty(e,"__esModule",{value:!0}),e.hello=void 0,e.hello=function(){console.log("hello5")},module.exports.WebBridge=o})();
+(()=>{"use strict";var e,o={};e=o,Object.defineProperty(e,"__esModule",{value:!0}),e.hello=void 0,e.hello=function(){console.log("hello6")},module.exports.WebBridge=o})();
