@@ -153,7 +153,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"/opt/homebrew/bin:$PATH\"\ncd ../JSBridge\nnpm run generate\n\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#export PATH=\"/opt/homebrew/bin:$PATH\"\n#cd ../JSBridge\n#npm run generate\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
